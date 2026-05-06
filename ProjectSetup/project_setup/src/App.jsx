@@ -1,12 +1,15 @@
-import { ArrowUpIcon } from "lucide-react"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
 
-import { Button } from "@/components/ui/button"
-import Login from "./components/Login"
-
-export default function App() {
+function App() {
   return (
-    <div className="flex flex-wrap items-center gap-2 md:flex-row p-8">
-      <Button variant="outline"><Login /></Button>
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
+  );
 }
+
+export default App;
