@@ -1,0 +1,12 @@
+langchain
+langgraph
+python-dotenv
+langchain-openai
+langsmith
+langchain-community
+openai
+requests
+beautifulsoup4
+selenium
+flask
+django
