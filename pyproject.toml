@@ -14,7 +14,9 @@ dependencies = [
     "langgraph>=1.1.10",
     "langsmith>=0.8.1",
     "openai>=2.35.0",
+    "pymupdf4llm>=1.27.2.3",
     "python-dotenv>=1.2.2",
     "requests>=2.33.1",
+    "rich>=15.0.0",
     "selenium>=4.43.0",
 ]

@@ -8,3 +8,4 @@ wheels/
 
 # Virtual environments
 .venv
+ProjectSetup/project_setup/src/supabaseClient.js
